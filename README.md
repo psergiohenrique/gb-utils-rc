@@ -9,4 +9,4 @@ npm i gb-utils-src
 
 ```js
 const { formatCEP } = require("gb-utils-rc")
-```
+``` 

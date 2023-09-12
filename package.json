@@ -1,0 +1,20 @@
+{
+  "name": "gb-utils-rc",
+  "version": "1.0.0",
+  "description": "Função teste para implementação futura no gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psergiohenrique/gb-utils-rc"
+  },
+  "keywords": [],
+  "author": "psergiohenrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psergiohenrique/gb-utils-rc/issues"
+  },
+  "homepage": "https://github.com/psergiohenrique/gb-utils-r#readme"
+}
