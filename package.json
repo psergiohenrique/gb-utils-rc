@@ -1,6 +1,6 @@
 {
   "name": "gb-utils-rc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Função teste para implementação futura no gateway",
   "main": "index.js",
   "scripts": {
