@@ -1,6 +1,6 @@
 {
   "name": "gb-utils-rc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Função teste para implementação futura no gateway",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/psergiohenrique/gb-utils-rc/issues"
   },
-  "homepage": "https://github.com/psergiohenrique/gb-utils-r#readme"
+  "homepage": "https://github.com/psergiohenrique/gb-utils-r#readme",
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
 }

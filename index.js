@@ -1,10 +1,16 @@
-function formatCEP(cep) {
-  cep = cep.replace(/\D/g, "");
+const axios = require('axios');
 
-  return cep.replace(/^(\d{5})(\d{3})$/, "$1-$2");
+async function doRequest(endpoint) {
+  if (!window || window === undefined) {
+    throw new Error('This function is only available in the browser');
+  }
+
+  try {
+    const response = await axios.get(endpoint);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
 }
 
-
-module.exports = {
-  formatCEP
-}
+module.exports = doRequest;

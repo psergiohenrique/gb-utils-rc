@@ -8,5 +8,5 @@ npm i gb-utils-src
 
 
 ```js
-const { formatCEP } = require("gb-utils-rc")
+const doRequest = require("gb-utils-rc")
 ``` 
